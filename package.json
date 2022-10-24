@@ -1,14 +1,14 @@
 {
-  "name": "x-asena",
+  "name": "Anjali",
   "version": "2.0.0",
-  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "description": "Amarok-md powered by cyberxkid.",
   "main": "./bot.js",
   "scripts": {
     "start": "supervisor -s ./bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neeraj-x0/x-asena.git"
+    "url": "git+https://github.com/Jackz-ser/X-Asena.git"
   },
   "keywords": [
     "whatsapp",
@@ -24,21 +24,24 @@
     "whatsapp api",
     "WhatsAsena"
   ],
-  "author": "X-Electra",
-  "developer": "X-Electra / Neeraj-x0",
+  "author": "Cyberxkid",
+  "developer": "Cyberxkid",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Neeraj-x0/x-asena/issues"
+    "url": "https://github.com/Jackz-ser/X-Asena/issues"
   },
-  "homepage": "https://github.com/Neeraj-x0/x-asena#readme",
+  "homepage": "https://github.com/Jackz-ser/X-Asena#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@neeraj-x0/textpro": "^1.0.3",
+    "abu-bot": "^2.4.0",
     "bitly": "^7.1.2",
     "browser-id3-writer": "^4.4.0",
     "crypto-js": "^4.1.1",
     "file-type": "^16.5.3",
+    "aes256": "^1.1.0",
+    "atob": "^2.1.2",
     "fluent-ffmpeg": "^2.1.2",
     "g-i-s": "^2.1.6",
     "got": "^11.8.2",
@@ -46,6 +49,7 @@
     "jimp": "^0.16.1",
     "jsdom": "^20.0.0",
     "node-cron": "^3.0.2",
+    "node-fetch": "^2.6.1",
     "node-webpmux": "^3.1.0",
     "pastebin-js": "^1.0.6",
     "pg": "^8.8.0",
